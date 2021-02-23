@@ -1,0 +1,152 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: ;
+}
+.background-img{
+    
+    min-height:40.62em;
+    background-image: url("../img/surimabackground.png");
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+main {
+    height: 100vH;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 40.62em;
+    background-image: linear-gradient(rgba(124,57,255,0.1) 0%,rgba(2,2,2,1) 100%), url("../img/bg.jpg");
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenedor{
+    width:300px;
+    margin:0 auto;
+}
+.content {
+    display: flex;
+    height: 720px;
+}
+.content-data{
+    background-color:rgb(249,249,249);
+    min-width:400px;
+}
+.content-data header{
+    text-align:center;
+    width:300px;
+    margin: 60px auto;
+}
+.content-data header div{
+    text-align:end;
+}
+.content-data header div a{
+    color:rgb(178,178,178);
+
+}
+.content-data p{
+    font-size:26px;
+    text-align:center;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.content-data input[type=text],
+.content-data input[type=password] {
+    display:block;
+    padding:15px;
+    height: 50px;
+    margin-top:15px;
+    margin-bottom:15px;
+    background-color: #ececec;
+    border:none;
+    border-radius:5px;
+}
+
+.content-data .social {
+    margin-top:25px;
+    text-align:center;
+}
+.content-data .social a{
+    padding:10px 35px;
+    margin-right:10px;
+    border-radius:5px;
+
+}
+.content-data .social .face {
+    background-color: rgb(24,119,242);
+    color: white;
+}
+.content-data .social .face:hover {
+    background-color: #3564c1;
+}
+.content-data .social .google {
+    background-color: #fff;
+    border: 1px solid #ececec;
+}
+.content-data .social .google:hover {
+    background-color: #ececec;
+}
+.content-data .social .apple {
+    background-color: #000;
+    color: #fff;
+}
+.content-data .social .apple:last-child{
+    margin-right:0;
+}
+.content-data .conexstate{
+    margin: 25px auto 0 auto;
+    font-size:13px;
+    font-weight:300;
+}
+.content-data .conexstate input[type=checkbox] {
+    color:red;
+}
+.content-data .conexstate label {
+    cursor:pointer;
+    color: rgb(178,178,178);
+}
+
+
+.content-detail{
+    height:100px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    height:250px;
+}
+.content-detail button {
+    margin: auto auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    border: 3px solid #ececec;
+    cursor: pointer;
+    background-color: rgb(249,249,249);
+}
+.content-detail button i{
+    color:#ececec;
+}
+
+.content-data .content-detail .content-detail-inf a{
+    display: block;
+    font-size:15px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(178,178,178)
+}
+.content-data .content-detail .content-detail-inf a:hover{
+    color:#000;
+}
+main > p{
+    position:absolute;
+    bottom:0;
+    color:#fff;
+}
